@@ -1,0 +1,10 @@
+To view all the sequence tables:
+SELECT * FROM information_schema.sequences;
+
+select * from user_name_sequence ;
+
+SELECT setval('user_name_sequence', 2912, true);
+
+
+
+
